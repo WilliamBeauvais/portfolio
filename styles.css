@@ -11,24 +11,104 @@
     object-position: 50% 0%;
 }
 
+.objectif {
+    font-size: 1.5vw;
+}
+
+.portfolio {
+    font-size: 3vw;
+    margin-left: 2vw;
+    text-align: center;
+}
+
+.competences {
+    margin-left: 3vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 8vw;
+    padding-top: 2vw;
+}
+
 .nom {
     width: 40vw;
-    height: 40vw;
+    height: 25vw;
     margin: 0;
     font-size: 10vw;
     text-align: center;
-    margin-top: 10vw;
+    margin-top: 5vw;
 }
 
 .presentation {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 5vw;
+    padding-bottom: 0;
     gap: 5vw;
 }
 
 .main {
     background-color: #f8efe7;
+}
+
+.projettitre {
+    text-align: center;
+    color: #19281A;
+    padding: 10vw;
+    margin: 0;
+    font-size: 5vw;
+}
+
+.projets {
+    margin-left: 2.5vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.projet {
+    background-color: #19281A;
+    padding: 2vw;
+    width: 25vw;
+    height: 30vw;
+    margin-bottom: 2vw;
+}
+
+.projet:hover {
+    background-color: #090e09;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nomprojet {
+    text-align: center;
+    color: #f8efe7;
+    font-size: 2vw;
+}
+
+.imgprojet {
+    width: 25vw;
+    height: 25vw;
+}
+
+.imglion {
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+.imggenerique {
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.imgskate {
+    object-fit: cover;
+    object-position: 8% 0%;
+}
+
+.imgsave {
+    object-fit: cover;
+    object-position: 0% 0%;
 }
 
 .footer {
