@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.logiciel {
+    width: 10vw;
+}
+
 .competences {
     margin-left: 3vw;
     display: grid;
