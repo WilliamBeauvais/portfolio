@@ -22,7 +22,8 @@
 }
 
 .logiciel {
-    width: 10vw;
+    width: 4vw;
+    margin-left: 3vw;
 }
 
 .competences {
@@ -52,6 +53,7 @@
 
 .main {
     background-color: #f8efe7;
+    padding-bottom: 10vh;
 }
 
 .projettitre {
@@ -116,5 +118,22 @@ a{
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: #19281A;
+    color: #f8efe7;
+}
+
+.titrecontact {
+    font-size: 5vw;
+    margin-left: 25vw;
+    width: 30vw;
+    margin-top: 15vh;
+}
+
+.contact {
+    font-size: 1vw;
+    width: 30vw;
+    margin-top: 8vh;
+    margin-bottom: 13vh;
 }

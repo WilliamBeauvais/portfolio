@@ -1,3 +1,69 @@
-div {
-    background-color: #fff;
+.imgprojet {
+    height: 90vh;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    margin-bottom: 15vh;
+}
+
+.imgtexte {
+    display: block;
+    
+}
+
+.nomprojet {
+    font-size: 8vw;
+    margin: 0;
+    margin-top: 40vh;
+    margin-left: 5vw;
+}
+
+.role {
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #19281A;
+    color: #f8efe7;
+}
+
+.main {
+    background-color: #f8efe7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.description {
+    grid-column: 2/3;
+    font-size: 2vw;
+    text-align: center;
+    width: 70vw;
+    color: #19281A;
+    margin: 0;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #19281A;
+    color: #f8efe7;
+}
+
+.titrecontact {
+    font-size: 5vw;
+    margin-left: 25vw;
+    width: 30vw;
+    margin-top: 15vh;
+}
+
+.contact {
+    font-size: 1vw;
+    width: 30vw;
+    margin-top: 13vh;
+    margin-bottom: 13vh;
 }
